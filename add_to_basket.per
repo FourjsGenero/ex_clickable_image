@@ -1,0 +1,17 @@
+LAYOUT
+TABLE
+{
+[f01   |f02        |f03|f04]
+[f01   |f02        |f03|f04]
+[f01   |f02        |f03|f04]
+[f01   |f02        |f03|f04]
+}
+END
+END
+ATTRIBUTES
+f01 = formonly.code, TITLE="Code";
+f02 = formonly.desc, TITLE="Description";
+f03 = formonly.qty, TITLE="Qty";
+IMAGE f04 = formonly.basket, ACTION=basket, AUTOSCALE, TITLE="Basket";
+INSTRUCTIONS
+SCREEN RECORD scr(code, desc, qty, basket)

@@ -1,0 +1,25 @@
+ACTION DEFAULTS
+ACTION insert (DEFAULTVIEW=AUTO, TEXT="Insert")
+ACTION update (DEFAULTVIEW=AUTO, TEXT="Update")
+ACTION delete (DEFAULTVIEW=AUTO, TEXT="Delete")
+END
+
+LAYOUT (TEXT="Clickable Image example")
+TABLE
+{
+[f01   |f02        |f03  |f04  |f05  ]
+[f01   |f02        |f03  |f04  |f05  ]
+[f01   |f02        |f03  |f04  |f05  ]
+[f01   |f02        |f03  |f04  |f05  ]
+[f01   |f02        |f03  |f04  |f05  ]
+}
+END
+END
+ATTRIBUTES
+f01 = formonly.code, TITLE="Code";
+f02 = formonly.desc, TITLE="Desc";
+IMAGE f03 = formonly.insert, ACTION=insert, AUTOSCALE, TITLE="Insert";
+IMAGE f04 = formonly.update, ACTION=update, AUTOSCALE, TITLE="Update";
+IMAGE f05 = formonly.delete, ACTION=delete, AUTOSCALE, TITLE="Delete";
+INSTRUCTIONS 
+SCREEN RECORD scr(code, desc,insert,update,delete);
