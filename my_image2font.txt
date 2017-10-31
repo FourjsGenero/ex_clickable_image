@@ -1,1 +1,1 @@
-fa-shopping-cart-grey=FontAwesome.ttf:f07a:grayText
+fa-shopping-cart-grey=FontAwesome.ttf:f07a:#E0E0E0
