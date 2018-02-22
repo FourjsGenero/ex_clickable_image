@@ -15,4 +15,6 @@ A splash screen with click/tap to continue
 
 <img alt="Spasl Screen" src="https://user-images.githubusercontent.com/13615993/32220524-f1031454-be96-11e7-884e-c0892ae8d019.png" width="50%" />
 
+A fullscreen menu with buttons (really images) that take up the whole screen
 
+<img alt="FullScreen Menu" src="https://user-images.githubusercontent.com/13615993/36569187-aabcaf96-1891-11e8-84a7-4fb20905646e.png" width="50%" />
