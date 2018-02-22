@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Project defaultApplication="-668661653" gstVersion="30a07" version="3.2">
+<Project defaultApplication="195135476" gstVersion="30a07" version="3.2">
   <Settings>
     <DynamicProperties version="2">
       <DynamicProperty description="Accent color (Android 5.0 and later)" initialValue="#9575CD" isDefaultInherited="false" isHidden="false" label="Accent color" name="gma-accent-color" readOnly="false" type="COLOR"/>
@@ -80,6 +80,12 @@
         <File filePath="splash.4st"/>
         <File filePath="splash.per"/>
         <File filePath="splash_iphone5.jpg"/>
+      </Application>
+    </Group>
+    <Group label="04_fullscreen_menu">
+      <Application binaryName="fullscreen_menu" id="195135476" label="fullscreen_menu">
+        <File filePath="fullscreen_menu.4gl"/>
+        <File filePath="fullscreen_menu.per"/>
       </Application>
     </Group>
   </Group>
