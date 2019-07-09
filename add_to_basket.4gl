@@ -27,7 +27,9 @@ DEFINE i INTEGER
     END FOR
     CLOSE WINDOW SCREEN
     OPEN WINDOW w WITH FORM "add_to_basket"
-    DISPLAY ARRAY arr TO scr.* ATTRIBUTES(UNBUFFERED)
+    DISPLAY ARRAY arr TO scr.* ATTRIBUTES(UNBUFFERED, ACCEPT=FALSE, CANCEL=FALSE, DOUBLECLICK=dummy)
+        BEFORE DISPLAY
+            MESSAGE "Cick on basket to toggle"
         ON ACTION basket
             IF arr[arr_curr()].basket = BASKET THEN
                 LET arr[arr_curr()].qty = 0
